@@ -1,0 +1,32 @@
+{
+	"name": "sarahbumann/webprojekt3",
+	"description": "Webprojekt 3.0",
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Sarah Bumann"
+		},
+		{
+			"name": "Tamara Eidt"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	],
+	"require": {
+		"php": ">= 7",
+		"ext-pdo": "*",
+		"twbs/bootstrap": "^4.3.0",
+		"fortawesome/font-awesome": "^5.11.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"sarahbumann\\webprojekt\\": "src"
+		}
+	}
+}
